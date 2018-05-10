@@ -2,7 +2,7 @@
     Sub main()
         Dim dias As Byte
         Dim fecha As Date
-        Console.WriteLine("ingrese una fecha: ")
+        Console.WriteLine("ingrese una fecha(dd/mm/aaaa): ")
         fecha = Console.ReadLine
         Console.WriteLine("Ingrese dias que quieras sumar: ")
         dias = Console.ReadLine
